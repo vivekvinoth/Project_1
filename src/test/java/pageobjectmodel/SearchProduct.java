@@ -32,6 +32,8 @@ public class SearchProduct extends Base_Class implements SearchProductInterfaceE
         clickOnElement(addToCart);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3000));
         handleAlert("accept");
+        System.out.println("hai git");
+        
 
     }
 }
